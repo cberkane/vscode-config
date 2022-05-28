@@ -1,0 +1,40 @@
+{
+    "explorer.compactFolders": false,
+    "explorer.confirmDragAndDrop": false,
+    "javascript.updateImportsOnFileMove.enabled": "always",
+    "typescript.updateImportsOnFileMove.enabled": "always",
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.startupEditor": "none",
+    
+    
+    "editor.fontFamily":"Fira code",
+    "editor.fontLigatures": true,
+    "editor.fontSize": 13,
+    
+    "git.autofetch": true,
+
+    "files.exclude": {
+        "**/.git": true,
+        "**/node_modules": true,
+        "**/.hg": true,
+        "**/CVS": true,
+        "**/.DS_Store": true,
+        "**/Thumbs.db": true
+    },
+    
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[html]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[json]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[jsonc]": {
+        "editor.defaultFormatter": "vscode.json-language-features"
+    },
+}
