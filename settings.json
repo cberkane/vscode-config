@@ -37,4 +37,10 @@
     "[jsonc]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
+    "[diff]": {
+        "tool": "default-difftool"
+    },
+    "[difftool 'default-difftool']": {
+        "cmd": "code --wait -diff $LOCAL $REMOTE"
+    }
 }
